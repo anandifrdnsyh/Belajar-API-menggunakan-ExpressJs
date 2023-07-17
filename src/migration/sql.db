@@ -1,0 +1,9 @@
+create table items
+(
+    id        int auto_increment,
+    name      varchar(255),
+    description varchar(255),
+    price int,
+    stock int,
+    constraint items_pk primary key (id)
+);
